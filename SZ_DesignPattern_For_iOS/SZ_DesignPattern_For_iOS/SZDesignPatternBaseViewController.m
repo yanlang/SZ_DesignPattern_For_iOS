@@ -51,7 +51,7 @@
 {
     if (!_lblResult) {
         
-        _lblResult = [[UILabel alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 200)];
+        _lblResult = [[UILabel alloc] initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, self.view.frame.size.height - 200)];
         
         _lblResult.numberOfLines = 0;
         _lblResult.textColor = [[UIColor redColor] colorWithAlphaComponent:0.4];

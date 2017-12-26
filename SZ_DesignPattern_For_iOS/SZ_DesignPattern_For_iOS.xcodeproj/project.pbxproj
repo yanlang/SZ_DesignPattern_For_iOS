@@ -104,6 +104,12 @@
 		A989F4AB1FF122CE0085CBAC /* SZGameRoll.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4AA1FF122CE0085CBAC /* SZGameRoll.m */; };
 		A989F4AE1FF1236C0085CBAC /* SZRollStateMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4AD1FF1236C0085CBAC /* SZRollStateMemento.m */; };
 		A989F4B11FF123CC0085CBAC /* SZRollStateCaretaker.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4B01FF123CC0085CBAC /* SZRollStateCaretaker.m */; };
+		A989F4B51FF256B00085CBAC /* SZCompositeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4B41FF256B00085CBAC /* SZCompositeViewController.m */; };
+		A989F4BB1FF259360085CBAC /* SZLeaf.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4BA1FF259360085CBAC /* SZLeaf.m */; };
+		A989F4BF1FF25BC50085CBAC /* SZComposite.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4BE1FF25BC50085CBAC /* SZComposite.m */; };
+		A989F4C31FF2704A0085CBAC /* SZConcreteCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4C21FF2704A0085CBAC /* SZConcreteCompany.m */; };
+		A989F4C61FF2719B0085CBAC /* SZHRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4C51FF2719B0085CBAC /* SZHRDepartment.m */; };
+		A989F4C91FF272960085CBAC /* SZFinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4C81FF272960085CBAC /* SZFinanceDepartment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -335,6 +341,20 @@
 		A989F4AD1FF1236C0085CBAC /* SZRollStateMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRollStateMemento.m; sourceTree = "<group>"; };
 		A989F4AF1FF123CC0085CBAC /* SZRollStateCaretaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZRollStateCaretaker.h; sourceTree = "<group>"; };
 		A989F4B01FF123CC0085CBAC /* SZRollStateCaretaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRollStateCaretaker.m; sourceTree = "<group>"; };
+		A989F4B31FF256B00085CBAC /* SZCompositeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCompositeViewController.h; sourceTree = "<group>"; };
+		A989F4B41FF256B00085CBAC /* SZCompositeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCompositeViewController.m; sourceTree = "<group>"; };
+		A989F4B91FF259360085CBAC /* SZLeaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZLeaf.h; sourceTree = "<group>"; };
+		A989F4BA1FF259360085CBAC /* SZLeaf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZLeaf.m; sourceTree = "<group>"; };
+		A989F4BC1FF259570085CBAC /* SZComponentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZComponentProtocol.h; sourceTree = "<group>"; };
+		A989F4BD1FF25BC50085CBAC /* SZComposite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZComposite.h; sourceTree = "<group>"; };
+		A989F4BE1FF25BC50085CBAC /* SZComposite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZComposite.m; sourceTree = "<group>"; };
+		A989F4C01FF26FD30085CBAC /* SZCompanyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCompanyProtocol.h; sourceTree = "<group>"; };
+		A989F4C11FF2704A0085CBAC /* SZConcreteCompany.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteCompany.h; sourceTree = "<group>"; };
+		A989F4C21FF2704A0085CBAC /* SZConcreteCompany.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteCompany.m; sourceTree = "<group>"; };
+		A989F4C41FF2719B0085CBAC /* SZHRDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZHRDepartment.h; sourceTree = "<group>"; };
+		A989F4C51FF2719B0085CBAC /* SZHRDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZHRDepartment.m; sourceTree = "<group>"; };
+		A989F4C71FF272960085CBAC /* SZFinanceDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZFinanceDepartment.h; sourceTree = "<group>"; };
+		A989F4C81FF272960085CBAC /* SZFinanceDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZFinanceDepartment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -399,6 +419,7 @@
 				A989F4771FF0D52B0085CBAC /* 12.状态模式 */,
 				A989F4911FF0E8460085CBAC /* 13.适配器模式 */,
 				A989F4A51FF11D810085CBAC /* 14.备忘录模式 */,
+				A989F4B21FF2566C0085CBAC /* 15.组合模式 */,
 				A989F3D51FECFEA60085CBAC /* SZDesignPatternBaseViewController.h */,
 				A989F3E01FECFEA70085CBAC /* SZDesignPatternBaseViewController.m */,
 				A989F3751FECFEA50085CBAC /* SZDesignPatternListViewController.h */,
@@ -803,6 +824,43 @@
 			path = "14.备忘录模式";
 			sourceTree = "<group>";
 		};
+		A989F4B21FF2566C0085CBAC /* 15.组合模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4B31FF256B00085CBAC /* SZCompositeViewController.h */,
+				A989F4B41FF256B00085CBAC /* SZCompositeViewController.m */,
+				A989F4B71FF257290085CBAC /* 组合模式基本代码 */,
+				A989F4B61FF257290085CBAC /* 组合模式事例代码 */,
+			);
+			path = "15.组合模式";
+			sourceTree = "<group>";
+		};
+		A989F4B61FF257290085CBAC /* 组合模式事例代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4C01FF26FD30085CBAC /* SZCompanyProtocol.h */,
+				A989F4C11FF2704A0085CBAC /* SZConcreteCompany.h */,
+				A989F4C21FF2704A0085CBAC /* SZConcreteCompany.m */,
+				A989F4C41FF2719B0085CBAC /* SZHRDepartment.h */,
+				A989F4C51FF2719B0085CBAC /* SZHRDepartment.m */,
+				A989F4C71FF272960085CBAC /* SZFinanceDepartment.h */,
+				A989F4C81FF272960085CBAC /* SZFinanceDepartment.m */,
+			);
+			path = "组合模式事例代码";
+			sourceTree = "<group>";
+		};
+		A989F4B71FF257290085CBAC /* 组合模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4BC1FF259570085CBAC /* SZComponentProtocol.h */,
+				A989F4B91FF259360085CBAC /* SZLeaf.h */,
+				A989F4BA1FF259360085CBAC /* SZLeaf.m */,
+				A989F4BD1FF25BC50085CBAC /* SZComposite.h */,
+				A989F4BE1FF25BC50085CBAC /* SZComposite.m */,
+			);
+			path = "组合模式基本代码";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -966,9 +1024,11 @@
 				A989F40E1FECFEA80085CBAC /* SZConcreteComponent.m in Sources */,
 				A989F4081FECFEA80085CBAC /* SZMakeCoffeeWithSugar.m in Sources */,
 				A989F42B1FECFEA80085CBAC /* SZTestPaperB.m in Sources */,
+				A989F4C31FF2704A0085CBAC /* SZConcreteCompany.m in Sources */,
 				A989F4291FECFEA80085CBAC /* SZProxyViewController.m in Sources */,
 				A989F4761FF0ABBC0085CBAC /* SZDataAccess.m in Sources */,
 				A989F4211FECFEA80085CBAC /* SZOperationMultiply.m in Sources */,
+				A989F4C91FF272960085CBAC /* SZFinanceDepartment.m in Sources */,
 				A989F41D1FECFEA80085CBAC /* SZOpetationAdd.m in Sources */,
 				A989F4171FECFEA80085CBAC /* SZBulidThinPerson.m in Sources */,
 				A989F42C1FECFEA80085CBAC /* SZTestPaper.m in Sources */,
@@ -976,10 +1036,12 @@
 				A989F4361FECFEA80085CBAC /* SZOperationMultiplyFactory.m in Sources */,
 				A989F4131FECFEA80085CBAC /* SZFacadeViewController.m in Sources */,
 				A989F4101FECFEA80085CBAC /* SZFund.m in Sources */,
+				A989F4BF1FF25BC50085CBAC /* SZComposite.m in Sources */,
 				A989F4241FECFEA80085CBAC /* SZPursuit.m in Sources */,
 				A989F4401FEE596B0085CBAC /* SZObserveViewController.m in Sources */,
 				A989F4941FF0F4C90085CBAC /* SZAdapterViewController.m in Sources */,
 				A989F3531FECFE2F0085CBAC /* main.m in Sources */,
+				A989F4C61FF2719B0085CBAC /* SZHRDepartment.m in Sources */,
 				A989F43A1FECFEA80085CBAC /* SZWorkExperience.m in Sources */,
 				A989F4301FECFEA80085CBAC /* SZCashRebate.m in Sources */,
 				A989F4371FECFEA80085CBAC /* SZOperationMinusFactory.m in Sources */,
@@ -1005,6 +1067,7 @@
 				A989F4261FECFEA80085CBAC /* SZChildren.m in Sources */,
 				A989F4351FECFEA80085CBAC /* SZOperationDivideFactory.m in Sources */,
 				A989F4811FF0DE1C0085CBAC /* SZForenoonState.m in Sources */,
+				A989F4BB1FF259360085CBAC /* SZLeaf.m in Sources */,
 				A989F4B11FF123CC0085CBAC /* SZRollStateCaretaker.m in Sources */,
 				A989F45D1FF0A0800085CBAC /* SZSqlserveUser.m in Sources */,
 				A989F46C1FF0A7150085CBAC /* SZDepartment.m in Sources */,
@@ -1029,6 +1092,7 @@
 				A989F4A41FF0FC920085CBAC /* SZTranslator.m in Sources */,
 				A989F4A11FF0FB990085CBAC /* SZCNCenter.m in Sources */,
 				A989F43C1FECFEA80085CBAC /* SZSubResume.m in Sources */,
+				A989F4B51FF256B00085CBAC /* SZCompositeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
