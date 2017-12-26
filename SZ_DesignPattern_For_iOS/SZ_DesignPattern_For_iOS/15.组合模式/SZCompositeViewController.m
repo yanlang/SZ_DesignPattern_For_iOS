@@ -27,7 +27,7 @@
 
     self.title = @"组合模式";
     
-    self.lblTips.text = @"点击屏幕测试哦！！！";
+    self.lblTips.text = @"点击屏幕测试哦！！！基本代码和事例代码随机测试！！！";
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
