@@ -110,6 +110,7 @@
 		A989F4C31FF2704A0085CBAC /* SZConcreteCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4C21FF2704A0085CBAC /* SZConcreteCompany.m */; };
 		A989F4C61FF2719B0085CBAC /* SZHRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4C51FF2719B0085CBAC /* SZHRDepartment.m */; };
 		A989F4C91FF272960085CBAC /* SZFinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4C81FF272960085CBAC /* SZFinanceDepartment.m */; };
+		A989F4CD1FF341150085CBAC /* SZIteratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4CC1FF341150085CBAC /* SZIteratorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -355,6 +356,8 @@
 		A989F4C51FF2719B0085CBAC /* SZHRDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZHRDepartment.m; sourceTree = "<group>"; };
 		A989F4C71FF272960085CBAC /* SZFinanceDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZFinanceDepartment.h; sourceTree = "<group>"; };
 		A989F4C81FF272960085CBAC /* SZFinanceDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZFinanceDepartment.m; sourceTree = "<group>"; };
+		A989F4CB1FF341150085CBAC /* SZIteratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZIteratorViewController.h; sourceTree = "<group>"; };
+		A989F4CC1FF341150085CBAC /* SZIteratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZIteratorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -420,6 +423,7 @@
 				A989F4911FF0E8460085CBAC /* 13.适配器模式 */,
 				A989F4A51FF11D810085CBAC /* 14.备忘录模式 */,
 				A989F4B21FF2566C0085CBAC /* 15.组合模式 */,
+				A989F4CA1FF340EF0085CBAC /* 16.迭代器模式 */,
 				A989F3D51FECFEA60085CBAC /* SZDesignPatternBaseViewController.h */,
 				A989F3E01FECFEA70085CBAC /* SZDesignPatternBaseViewController.m */,
 				A989F3751FECFEA50085CBAC /* SZDesignPatternListViewController.h */,
@@ -861,6 +865,15 @@
 			path = "组合模式基本代码";
 			sourceTree = "<group>";
 		};
+		A989F4CA1FF340EF0085CBAC /* 16.迭代器模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4CB1FF341150085CBAC /* SZIteratorViewController.h */,
+				A989F4CC1FF341150085CBAC /* SZIteratorViewController.m */,
+			);
+			path = "16.迭代器模式";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1085,6 +1098,7 @@
 				A989F4661FF0A41B0085CBAC /* SZSqlserveFactory.m in Sources */,
 				A989F4231FECFEA80085CBAC /* SZProxy.m in Sources */,
 				A989F41A1FECFEA80085CBAC /* SZBuildLeg.m in Sources */,
+				A989F4CD1FF341150085CBAC /* SZIteratorViewController.m in Sources */,
 				A989F44A1FEE61C50085CBAC /* SZNBAObserve.m in Sources */,
 				A989F4051FECFEA80085CBAC /* SZCoffeeBeanB.m in Sources */,
 				A989F4901FF0E0D10085CBAC /* SZRestState.m in Sources */,
