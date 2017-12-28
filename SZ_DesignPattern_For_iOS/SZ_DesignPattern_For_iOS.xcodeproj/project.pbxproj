@@ -111,6 +111,16 @@
 		A989F4C61FF2719B0085CBAC /* SZHRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4C51FF2719B0085CBAC /* SZHRDepartment.m */; };
 		A989F4C91FF272960085CBAC /* SZFinanceDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4C81FF272960085CBAC /* SZFinanceDepartment.m */; };
 		A989F4CD1FF341150085CBAC /* SZIteratorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4CC1FF341150085CBAC /* SZIteratorViewController.m */; };
+		A989F4D71FF3CDAA0085CBAC /* SZSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4D61FF3CDAA0085CBAC /* SZSingletonViewController.m */; };
+		A989F4DA1FF3CE350085CBAC /* SZSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4D91FF3CE350085CBAC /* SZSingleton.m */; };
+		A989F4DE1FF487810085CBAC /* SZViewBridgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4DD1FF487810085CBAC /* SZViewBridgeController.m */; };
+		A989F4E41FF48DC60085CBAC /* SZConcreteImplementorA.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4E31FF48DC60085CBAC /* SZConcreteImplementorA.m */; };
+		A989F4E71FF48E0E0085CBAC /* SZConcreteImplementorB.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4E61FF48E0E0085CBAC /* SZConcreteImplementorB.m */; };
+		A989F4EB1FF4A0DA0085CBAC /* SZRefinedAbstraction.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4EA1FF4A0DA0085CBAC /* SZRefinedAbstraction.m */; };
+		A989F4EF1FF4C0520085CBAC /* SZMobileGame.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4EE1FF4C0520085CBAC /* SZMobileGame.m */; };
+		A989F4F21FF4C0BF0085CBAC /* SZMobileAddressList.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4F11FF4C0BF0085CBAC /* SZMobileAddressList.m */; };
+		A989F4F61FF4C18C0085CBAC /* SZMobileBrandN.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4F51FF4C18C0085CBAC /* SZMobileBrandN.m */; };
+		A989F4FA1FF4C2360085CBAC /* SZMoblieBrandM.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F4F91FF4C2360085CBAC /* SZMoblieBrandM.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -358,6 +368,30 @@
 		A989F4C81FF272960085CBAC /* SZFinanceDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZFinanceDepartment.m; sourceTree = "<group>"; };
 		A989F4CB1FF341150085CBAC /* SZIteratorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZIteratorViewController.h; sourceTree = "<group>"; };
 		A989F4CC1FF341150085CBAC /* SZIteratorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZIteratorViewController.m; sourceTree = "<group>"; };
+		A989F4D51FF3CDAA0085CBAC /* SZSingletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSingletonViewController.h; sourceTree = "<group>"; };
+		A989F4D61FF3CDAA0085CBAC /* SZSingletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSingletonViewController.m; sourceTree = "<group>"; };
+		A989F4D81FF3CE350085CBAC /* SZSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZSingleton.h; sourceTree = "<group>"; };
+		A989F4D91FF3CE350085CBAC /* SZSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZSingleton.m; sourceTree = "<group>"; };
+		A989F4DC1FF487810085CBAC /* SZViewBridgeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZViewBridgeController.h; sourceTree = "<group>"; };
+		A989F4DD1FF487810085CBAC /* SZViewBridgeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZViewBridgeController.m; sourceTree = "<group>"; };
+		A989F4E11FF48CF90085CBAC /* SZImplementorProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZImplementorProtocol.h; sourceTree = "<group>"; };
+		A989F4E21FF48DC60085CBAC /* SZConcreteImplementorA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteImplementorA.h; sourceTree = "<group>"; };
+		A989F4E31FF48DC60085CBAC /* SZConcreteImplementorA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteImplementorA.m; sourceTree = "<group>"; };
+		A989F4E51FF48E0E0085CBAC /* SZConcreteImplementorB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteImplementorB.h; sourceTree = "<group>"; };
+		A989F4E61FF48E0E0085CBAC /* SZConcreteImplementorB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteImplementorB.m; sourceTree = "<group>"; };
+		A989F4E81FF48EFD0085CBAC /* SZAbstractionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAbstractionProtocol.h; sourceTree = "<group>"; };
+		A989F4E91FF4A0DA0085CBAC /* SZRefinedAbstraction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZRefinedAbstraction.h; sourceTree = "<group>"; };
+		A989F4EA1FF4A0DA0085CBAC /* SZRefinedAbstraction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZRefinedAbstraction.m; sourceTree = "<group>"; };
+		A989F4EC1FF4C0260085CBAC /* SZMobileSoftProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMobileSoftProtocol.h; sourceTree = "<group>"; };
+		A989F4ED1FF4C0520085CBAC /* SZMobileGame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMobileGame.h; sourceTree = "<group>"; };
+		A989F4EE1FF4C0520085CBAC /* SZMobileGame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMobileGame.m; sourceTree = "<group>"; };
+		A989F4F01FF4C0BF0085CBAC /* SZMobileAddressList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMobileAddressList.h; sourceTree = "<group>"; };
+		A989F4F11FF4C0BF0085CBAC /* SZMobileAddressList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMobileAddressList.m; sourceTree = "<group>"; };
+		A989F4F41FF4C18C0085CBAC /* SZMobileBrandN.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMobileBrandN.h; sourceTree = "<group>"; };
+		A989F4F51FF4C18C0085CBAC /* SZMobileBrandN.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMobileBrandN.m; sourceTree = "<group>"; };
+		A989F4F71FF4C1B20085CBAC /* SZMobileBrandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMobileBrandProtocol.h; sourceTree = "<group>"; };
+		A989F4F81FF4C2360085CBAC /* SZMoblieBrandM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMoblieBrandM.h; sourceTree = "<group>"; };
+		A989F4F91FF4C2360085CBAC /* SZMoblieBrandM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMoblieBrandM.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -424,6 +458,8 @@
 				A989F4A51FF11D810085CBAC /* 14.备忘录模式 */,
 				A989F4B21FF2566C0085CBAC /* 15.组合模式 */,
 				A989F4CA1FF340EF0085CBAC /* 16.迭代器模式 */,
+				A989F4D41FF3CD770085CBAC /* 17.单例模式 */,
+				A989F4DB1FF3D5290085CBAC /* 18.桥接模式 */,
 				A989F3D51FECFEA60085CBAC /* SZDesignPatternBaseViewController.h */,
 				A989F3E01FECFEA70085CBAC /* SZDesignPatternBaseViewController.m */,
 				A989F3751FECFEA50085CBAC /* SZDesignPatternListViewController.h */,
@@ -874,6 +910,60 @@
 			path = "16.迭代器模式";
 			sourceTree = "<group>";
 		};
+		A989F4D41FF3CD770085CBAC /* 17.单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4D51FF3CDAA0085CBAC /* SZSingletonViewController.h */,
+				A989F4D61FF3CDAA0085CBAC /* SZSingletonViewController.m */,
+				A989F4D81FF3CE350085CBAC /* SZSingleton.h */,
+				A989F4D91FF3CE350085CBAC /* SZSingleton.m */,
+			);
+			path = "17.单例模式";
+			sourceTree = "<group>";
+		};
+		A989F4DB1FF3D5290085CBAC /* 18.桥接模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4DC1FF487810085CBAC /* SZViewBridgeController.h */,
+				A989F4DD1FF487810085CBAC /* SZViewBridgeController.m */,
+				A989F4DF1FF48B370085CBAC /* 桥接模式基本代码 */,
+				A989F4E01FF48B380085CBAC /* 桥接模式事例代码 */,
+			);
+			path = "18.桥接模式";
+			sourceTree = "<group>";
+		};
+		A989F4DF1FF48B370085CBAC /* 桥接模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4E11FF48CF90085CBAC /* SZImplementorProtocol.h */,
+				A989F4E21FF48DC60085CBAC /* SZConcreteImplementorA.h */,
+				A989F4E31FF48DC60085CBAC /* SZConcreteImplementorA.m */,
+				A989F4E51FF48E0E0085CBAC /* SZConcreteImplementorB.h */,
+				A989F4E61FF48E0E0085CBAC /* SZConcreteImplementorB.m */,
+				A989F4E81FF48EFD0085CBAC /* SZAbstractionProtocol.h */,
+				A989F4E91FF4A0DA0085CBAC /* SZRefinedAbstraction.h */,
+				A989F4EA1FF4A0DA0085CBAC /* SZRefinedAbstraction.m */,
+			);
+			path = "桥接模式基本代码";
+			sourceTree = "<group>";
+		};
+		A989F4E01FF48B380085CBAC /* 桥接模式事例代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A989F4EC1FF4C0260085CBAC /* SZMobileSoftProtocol.h */,
+				A989F4ED1FF4C0520085CBAC /* SZMobileGame.h */,
+				A989F4EE1FF4C0520085CBAC /* SZMobileGame.m */,
+				A989F4F01FF4C0BF0085CBAC /* SZMobileAddressList.h */,
+				A989F4F11FF4C0BF0085CBAC /* SZMobileAddressList.m */,
+				A989F4F71FF4C1B20085CBAC /* SZMobileBrandProtocol.h */,
+				A989F4F41FF4C18C0085CBAC /* SZMobileBrandN.h */,
+				A989F4F51FF4C18C0085CBAC /* SZMobileBrandN.m */,
+				A989F4F81FF4C2360085CBAC /* SZMoblieBrandM.h */,
+				A989F4F91FF4C2360085CBAC /* SZMoblieBrandM.m */,
+			);
+			path = "桥接模式事例代码";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1015,6 +1105,7 @@
 				A989F4111FECFEA80085CBAC /* SZRealEstate.m in Sources */,
 				A989F4321FECFEA80085CBAC /* SZCashNormal.m in Sources */,
 				A989F4461FEE5BDC0085CBAC /* SZSecretary.m in Sources */,
+				A989F4E41FF48DC60085CBAC /* SZConcreteImplementorA.m in Sources */,
 				A989F4251FECFEA80085CBAC /* SZGirl.m in Sources */,
 				A989F42E1FECFEA80085CBAC /* SZDesignPatternBaseViewController.m in Sources */,
 				A989F48D1FF0DF070085CBAC /* SZSleepingState.m in Sources */,
@@ -1025,6 +1116,7 @@
 				A989F40D1FECFEA80085CBAC /* SZConcreteDecoratorA.m in Sources */,
 				A989F4181FECFEA80085CBAC /* SZBuildBody.m in Sources */,
 				A989F4151FECFEA80085CBAC /* SZBuildArm.m in Sources */,
+				A989F4F21FF4C0BF0085CBAC /* SZMobileAddressList.m in Sources */,
 				A989F47E1FF0D8FA0085CBAC /* SZWork.m in Sources */,
 				A989F4551FF09A2D0085CBAC /* SZAbstractFactoryViewController.m in Sources */,
 				A989F42F1FECFEA80085CBAC /* SZCashReturn.m in Sources */,
@@ -1056,15 +1148,20 @@
 				A989F3531FECFE2F0085CBAC /* main.m in Sources */,
 				A989F4C61FF2719B0085CBAC /* SZHRDepartment.m in Sources */,
 				A989F43A1FECFEA80085CBAC /* SZWorkExperience.m in Sources */,
+				A989F4E71FF48E0E0085CBAC /* SZConcreteImplementorB.m in Sources */,
 				A989F4301FECFEA80085CBAC /* SZCashRebate.m in Sources */,
+				A989F4D71FF3CDAA0085CBAC /* SZSingletonViewController.m in Sources */,
 				A989F4371FECFEA80085CBAC /* SZOperationMinusFactory.m in Sources */,
 				A989F42A1FECFEA80085CBAC /* SZTestPaperA.m in Sources */,
+				A989F4FA1FF4C2360085CBAC /* SZMoblieBrandM.m in Sources */,
 				A989F4A81FF11F7F0085CBAC /* SZMementoViewController.m in Sources */,
 				A989F40B1FECFEA80085CBAC /* SZConcreteDecoratorB.m in Sources */,
 				A989F4341FECFEA80085CBAC /* SZOperationAddFactory.m in Sources */,
 				A989F4061FECFEA80085CBAC /* SZCoffeeBeanA.m in Sources */,
 				A989F4121FECFEA80085CBAC /* SZStock.m in Sources */,
 				A989F4981FF0F6C30085CBAC /* SZForwards.m in Sources */,
+				A989F4EF1FF4C0520085CBAC /* SZMobileGame.m in Sources */,
+				A989F4F61FF4C18C0085CBAC /* SZMobileBrandN.m in Sources */,
 				A989F4191FECFEA80085CBAC /* SZBuildPersonDirector.m in Sources */,
 				A989F4731FF0A7E10085CBAC /* SZAccessDepartment.m in Sources */,
 				A989F4311FECFEA80085CBAC /* SZStrategyViewController.m in Sources */,
@@ -1084,10 +1181,12 @@
 				A989F4B11FF123CC0085CBAC /* SZRollStateCaretaker.m in Sources */,
 				A989F45D1FF0A0800085CBAC /* SZSqlserveUser.m in Sources */,
 				A989F46C1FF0A7150085CBAC /* SZDepartment.m in Sources */,
+				A989F4DA1FF3CE350085CBAC /* SZSingleton.m in Sources */,
 				A989F4271FECFEA80085CBAC /* SZNanny.m in Sources */,
 				A989F3451FECFE2F0085CBAC /* AppDelegate.m in Sources */,
 				A989F47A1FF0D5ED0085CBAC /* SZStateViewController.m in Sources */,
 				A989F49E1FF0FB320085CBAC /* SZGuards.m in Sources */,
+				A989F4EB1FF4A0DA0085CBAC /* SZRefinedAbstraction.m in Sources */,
 				A989F49B1FF0FAE90085CBAC /* SZCenter.m in Sources */,
 				A989F40A1FECFEA80085CBAC /* SZMakeCoffee.m in Sources */,
 				A989F4691FF0A42A0085CBAC /* SZAccessFactory.m in Sources */,
@@ -1099,6 +1198,7 @@
 				A989F4231FECFEA80085CBAC /* SZProxy.m in Sources */,
 				A989F41A1FECFEA80085CBAC /* SZBuildLeg.m in Sources */,
 				A989F4CD1FF341150085CBAC /* SZIteratorViewController.m in Sources */,
+				A989F4DE1FF487810085CBAC /* SZViewBridgeController.m in Sources */,
 				A989F44A1FEE61C50085CBAC /* SZNBAObserve.m in Sources */,
 				A989F4051FECFEA80085CBAC /* SZCoffeeBeanB.m in Sources */,
 				A989F4901FF0E0D10085CBAC /* SZRestState.m in Sources */,
