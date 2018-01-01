@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A923C20D1FFA025B00D5BCFD /* SZCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */; };
+		A923C2111FFA03E400D5BCFD /* SZReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2101FFA03E400D5BCFD /* SZReceiver.m */; };
+		A923C2141FFA048E00D5BCFD /* SZConcreteCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2131FFA048E00D5BCFD /* SZConcreteCommand.m */; };
+		A923C2171FFA051C00D5BCFD /* SZInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2161FFA051C00D5BCFD /* SZInvoker.m */; };
+		A923C21A1FFA077C00D5BCFD /* SZBarbecuer.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2191FFA077C00D5BCFD /* SZBarbecuer.m */; };
+		A923C21E1FFA086A00D5BCFD /* SZBakeMuttonCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C21D1FFA086A00D5BCFD /* SZBakeMuttonCommand.m */; };
+		A923C2211FFA09B400D5BCFD /* SZBakeChickenWingCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2201FFA09B400D5BCFD /* SZBakeChickenWingCommand.m */; };
+		A923C2241FFA0AA100D5BCFD /* SZWaiter.m in Sources */ = {isa = PBXBuildFile; fileRef = A923C2231FFA0AA100D5BCFD /* SZWaiter.m */; };
 		A989F3451FECFE2F0085CBAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A989F3441FECFE2F0085CBAC /* AppDelegate.m */; };
 		A989F34D1FECFE2F0085CBAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A989F34C1FECFE2F0085CBAC /* Assets.xcassets */; };
 		A989F3501FECFE2F0085CBAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A989F34E1FECFE2F0085CBAC /* LaunchScreen.storyboard */; };
@@ -141,6 +149,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A923C20B1FFA025B00D5BCFD /* SZCommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommandViewController.h; sourceTree = "<group>"; };
+		A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZCommandViewController.m; sourceTree = "<group>"; };
+		A923C20E1FFA039200D5BCFD /* SZCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZCommandProtocol.h; sourceTree = "<group>"; };
+		A923C20F1FFA03E400D5BCFD /* SZReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZReceiver.h; sourceTree = "<group>"; };
+		A923C2101FFA03E400D5BCFD /* SZReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZReceiver.m; sourceTree = "<group>"; };
+		A923C2121FFA048E00D5BCFD /* SZConcreteCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZConcreteCommand.h; sourceTree = "<group>"; };
+		A923C2131FFA048E00D5BCFD /* SZConcreteCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZConcreteCommand.m; sourceTree = "<group>"; };
+		A923C2151FFA051C00D5BCFD /* SZInvoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZInvoker.h; sourceTree = "<group>"; };
+		A923C2161FFA051C00D5BCFD /* SZInvoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZInvoker.m; sourceTree = "<group>"; };
+		A923C2181FFA077C00D5BCFD /* SZBarbecuer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBarbecuer.h; sourceTree = "<group>"; };
+		A923C2191FFA077C00D5BCFD /* SZBarbecuer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBarbecuer.m; sourceTree = "<group>"; };
+		A923C21B1FFA07EF00D5BCFD /* SZBakeCommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBakeCommandProtocol.h; sourceTree = "<group>"; };
+		A923C21C1FFA086A00D5BCFD /* SZBakeMuttonCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBakeMuttonCommand.h; sourceTree = "<group>"; };
+		A923C21D1FFA086A00D5BCFD /* SZBakeMuttonCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBakeMuttonCommand.m; sourceTree = "<group>"; };
+		A923C21F1FFA09B400D5BCFD /* SZBakeChickenWingCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBakeChickenWingCommand.h; sourceTree = "<group>"; };
+		A923C2201FFA09B400D5BCFD /* SZBakeChickenWingCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBakeChickenWingCommand.m; sourceTree = "<group>"; };
+		A923C2221FFA0AA100D5BCFD /* SZWaiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZWaiter.h; sourceTree = "<group>"; };
+		A923C2231FFA0AA100D5BCFD /* SZWaiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZWaiter.m; sourceTree = "<group>"; };
 		A989F3401FECFE2F0085CBAC /* SZ_DesignPattern_For_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZ_DesignPattern_For_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A989F3431FECFE2F0085CBAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A989F3441FECFE2F0085CBAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -419,6 +445,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A923C2081FFA022C00D5BCFD /* 19.命令模式 */ = {
+			isa = PBXGroup;
+			children = (
+				A923C20B1FFA025B00D5BCFD /* SZCommandViewController.h */,
+				A923C20C1FFA025B00D5BCFD /* SZCommandViewController.m */,
+				A923C20A1FFA022C00D5BCFD /* 命令模式基本代码 */,
+				A923C2091FFA022C00D5BCFD /* 命令模式事例代码 */,
+			);
+			path = "19.命令模式";
+			sourceTree = "<group>";
+		};
+		A923C2091FFA022C00D5BCFD /* 命令模式事例代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A923C21B1FFA07EF00D5BCFD /* SZBakeCommandProtocol.h */,
+				A923C2181FFA077C00D5BCFD /* SZBarbecuer.h */,
+				A923C2191FFA077C00D5BCFD /* SZBarbecuer.m */,
+				A923C21C1FFA086A00D5BCFD /* SZBakeMuttonCommand.h */,
+				A923C21D1FFA086A00D5BCFD /* SZBakeMuttonCommand.m */,
+				A923C21F1FFA09B400D5BCFD /* SZBakeChickenWingCommand.h */,
+				A923C2201FFA09B400D5BCFD /* SZBakeChickenWingCommand.m */,
+				A923C2221FFA0AA100D5BCFD /* SZWaiter.h */,
+				A923C2231FFA0AA100D5BCFD /* SZWaiter.m */,
+			);
+			path = "命令模式事例代码";
+			sourceTree = "<group>";
+		};
+		A923C20A1FFA022C00D5BCFD /* 命令模式基本代码 */ = {
+			isa = PBXGroup;
+			children = (
+				A923C20E1FFA039200D5BCFD /* SZCommandProtocol.h */,
+				A923C20F1FFA03E400D5BCFD /* SZReceiver.h */,
+				A923C2101FFA03E400D5BCFD /* SZReceiver.m */,
+				A923C2121FFA048E00D5BCFD /* SZConcreteCommand.h */,
+				A923C2131FFA048E00D5BCFD /* SZConcreteCommand.m */,
+				A923C2151FFA051C00D5BCFD /* SZInvoker.h */,
+				A923C2161FFA051C00D5BCFD /* SZInvoker.m */,
+			);
+			path = "命令模式基本代码";
+			sourceTree = "<group>";
+		};
 		A989F3371FECFE2F0085CBAC = {
 			isa = PBXGroup;
 			children = (
@@ -460,6 +527,7 @@
 				A989F4CA1FF340EF0085CBAC /* 16.迭代器模式 */,
 				A989F4D41FF3CD770085CBAC /* 17.单例模式 */,
 				A989F4DB1FF3D5290085CBAC /* 18.桥接模式 */,
+				A923C2081FFA022C00D5BCFD /* 19.命令模式 */,
 				A989F3D51FECFEA60085CBAC /* SZDesignPatternBaseViewController.h */,
 				A989F3E01FECFEA70085CBAC /* SZDesignPatternBaseViewController.m */,
 				A989F3751FECFEA50085CBAC /* SZDesignPatternListViewController.h */,
@@ -1106,6 +1174,7 @@
 				A989F4321FECFEA80085CBAC /* SZCashNormal.m in Sources */,
 				A989F4461FEE5BDC0085CBAC /* SZSecretary.m in Sources */,
 				A989F4E41FF48DC60085CBAC /* SZConcreteImplementorA.m in Sources */,
+				A923C2111FFA03E400D5BCFD /* SZReceiver.m in Sources */,
 				A989F4251FECFEA80085CBAC /* SZGirl.m in Sources */,
 				A989F42E1FECFEA80085CBAC /* SZDesignPatternBaseViewController.m in Sources */,
 				A989F48D1FF0DF070085CBAC /* SZSleepingState.m in Sources */,
@@ -1116,14 +1185,17 @@
 				A989F40D1FECFEA80085CBAC /* SZConcreteDecoratorA.m in Sources */,
 				A989F4181FECFEA80085CBAC /* SZBuildBody.m in Sources */,
 				A989F4151FECFEA80085CBAC /* SZBuildArm.m in Sources */,
+				A923C2141FFA048E00D5BCFD /* SZConcreteCommand.m in Sources */,
 				A989F4F21FF4C0BF0085CBAC /* SZMobileAddressList.m in Sources */,
 				A989F47E1FF0D8FA0085CBAC /* SZWork.m in Sources */,
+				A923C2211FFA09B400D5BCFD /* SZBakeChickenWingCommand.m in Sources */,
 				A989F4551FF09A2D0085CBAC /* SZAbstractFactoryViewController.m in Sources */,
 				A989F42F1FECFEA80085CBAC /* SZCashReturn.m in Sources */,
 				A989F41F1FECFEA80085CBAC /* SZOperationDivide.m in Sources */,
 				A989F40C1FECFEA80085CBAC /* SZDecorator.m in Sources */,
 				A989F4331FECFEA80085CBAC /* SZCashContext.m in Sources */,
 				A989F42D1FECFEA80085CBAC /* SZTemplateMethodViewController.m in Sources */,
+				A923C2241FFA0AA100D5BCFD /* SZWaiter.m in Sources */,
 				A989F41B1FECFEA80085CBAC /* SZBulidHead.m in Sources */,
 				A989F4071FECFEA80085CBAC /* SZMakeCoffeeWithMocha.m in Sources */,
 				A989F40E1FECFEA80085CBAC /* SZConcreteComponent.m in Sources */,
@@ -1145,6 +1217,7 @@
 				A989F4241FECFEA80085CBAC /* SZPursuit.m in Sources */,
 				A989F4401FEE596B0085CBAC /* SZObserveViewController.m in Sources */,
 				A989F4941FF0F4C90085CBAC /* SZAdapterViewController.m in Sources */,
+				A923C20D1FFA025B00D5BCFD /* SZCommandViewController.m in Sources */,
 				A989F3531FECFE2F0085CBAC /* main.m in Sources */,
 				A989F4C61FF2719B0085CBAC /* SZHRDepartment.m in Sources */,
 				A989F43A1FECFEA80085CBAC /* SZWorkExperience.m in Sources */,
@@ -1163,6 +1236,7 @@
 				A989F4EF1FF4C0520085CBAC /* SZMobileGame.m in Sources */,
 				A989F4F61FF4C18C0085CBAC /* SZMobileBrandN.m in Sources */,
 				A989F4191FECFEA80085CBAC /* SZBuildPersonDirector.m in Sources */,
+				A923C2171FFA051C00D5BCFD /* SZInvoker.m in Sources */,
 				A989F4731FF0A7E10085CBAC /* SZAccessDepartment.m in Sources */,
 				A989F4311FECFEA80085CBAC /* SZStrategyViewController.m in Sources */,
 				A989F41E1FECFEA80085CBAC /* SZOperationFactory.m in Sources */,
@@ -1198,6 +1272,7 @@
 				A989F4231FECFEA80085CBAC /* SZProxy.m in Sources */,
 				A989F41A1FECFEA80085CBAC /* SZBuildLeg.m in Sources */,
 				A989F4CD1FF341150085CBAC /* SZIteratorViewController.m in Sources */,
+				A923C21A1FFA077C00D5BCFD /* SZBarbecuer.m in Sources */,
 				A989F4DE1FF487810085CBAC /* SZViewBridgeController.m in Sources */,
 				A989F44A1FEE61C50085CBAC /* SZNBAObserve.m in Sources */,
 				A989F4051FECFEA80085CBAC /* SZCoffeeBeanB.m in Sources */,
@@ -1206,6 +1281,7 @@
 				A989F4A41FF0FC920085CBAC /* SZTranslator.m in Sources */,
 				A989F4A11FF0FB990085CBAC /* SZCNCenter.m in Sources */,
 				A989F43C1FECFEA80085CBAC /* SZSubResume.m in Sources */,
+				A923C21E1FFA086A00D5BCFD /* SZBakeMuttonCommand.m in Sources */,
 				A989F4B51FF256B00085CBAC /* SZCompositeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
